@@ -26,6 +26,7 @@ steps:
     solution: '$(solution)'
     platform: '$(buildPlatform)'
     configuration: '$(buildConfiguration)'
+    msbuildArgs: '/target:Library'
 
 - task: NuGetCommand@2
   inputs:
